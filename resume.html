@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MC Jareld Barra Tamunday - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --text: #0f172a;
+        --muted: #475569;
+        --line: #e2e8f0;
+        --accent: #4f46e5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        color: var(--text);
+        background: #ffffff;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 18mm 18mm 16mm;
+      }
+
+      .header {
+        display: grid;
+        gap: 10px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid var(--line);
+      }
+
+      .header-top {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        align-items: start;
+      }
+
+      .headshot {
+        width: 108px;
+        height: 108px;
+        border-radius: 14px;
+        object-fit: cover;
+        border: 1px solid var(--line);
+      }
+
+      .name {
+        font-weight: 800;
+        font-size: 28px;
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+      }
+
+      .headline {
+        font-weight: 650;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .meta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px 14px;
+        font-size: 12.5px;
+        color: var(--muted);
+      }
+
+      .meta a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+
+      .meta a:hover {
+        text-decoration: underline;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 18px;
+        padding-top: 14px;
+      }
+
+      .section {
+        padding: 10px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .section:last-child {
+        border-bottom: none;
+      }
+
+      .section-title {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 12.8px;
+        color: var(--text);
+        line-height: 1.55;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 8px 0 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 6px 0;
+        font-size: 12.8px;
+        line-height: 1.5;
+      }
+
+      .item {
+        display: grid;
+        gap: 4px;
+        margin-top: 10px;
+      }
+
+      .item:first-child {
+        margin-top: 0;
+      }
+
+      .item-title {
+        font-weight: 800;
+        font-size: 13.2px;
+      }
+
+      .item-sub {
+        font-weight: 650;
+        font-size: 12.5px;
+        color: var(--muted);
+      }
+
+      .pill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+      }
+
+      .pill {
+        font-size: 12px;
+        color: var(--text);
+        border: 1px solid var(--line);
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #f8fafc;
+      }
+
+      .right .section {
+        padding-top: 0;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+        .page {
+          margin: 0;
+          width: auto;
+          min-height: auto;
+          padding: 0;
+        }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+
+      @page {
+        size: A4;
+        margin: 14mm;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div class="header-top">
+          <div>
+            <div class="name">MC Jareld Barra Tamunday</div>
+            <div class="headline">IT Student (2nd Year) | Junior Full-Stack Developer (Student) | From the Philippines</div>
+          </div>
+          <img class="headshot" src="assets/resume-photo.jpg " alt="Headshot of MC Jareld Barra Tamunday" />
+        </div>
+
+        <div class="meta">
+          <div>Balanga City, Bataan, Philippines • From the Philippines</div>
+          <div>Phone: 09385121030</div>
+          <div>Email: <a href="mailto:mcjareld123@gmail.com">mcjareld123@gmail.com</a></div>
+          <div>Portfolio: <a href="https://mcjareldbarratamunday-dev.github.io/mcjareld-portfolio/">mcjareldbarratamunday-dev.github.io/mcjareld-portfolio</a></div>
+          <div>GitHub: <a href="https://github.com/mcjareldbarratamunday-dev">github.com/mcjareldbarratamunday-dev</a></div>
+          <div>Facebook: <a href="https://www.facebook.com/mcccieyyy">facebook.com/mcccieyyy</a></div>
+          <div>Instagram: <a href="https://www.instagram.com/mcieyy_">instagram.com/mcieyy_</a></div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="left">
+          <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p>
+              Motivated IT student from the Philippines (2nd year) focused on building full-stack web applications. Strong fundamentals in HTML, CSS,
+              JavaScript, PHP, and MySQL (SQL/CRUD). Comfortable troubleshooting bugs, improving UI/UX, and shipping small enhancements using Git/GitHub.
+              Uses AI-assisted development responsibly for research and debugging, validating outputs through testing and review.
+            </p>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Projects</div>
+            <div class="item">
+              <div class="item-title">Personal Portfolio Website</div>
+              <div class="item-sub">Web Developer / Web Designer</div>
+              <ul>
+                <li>Designed and built a responsive portfolio to showcase skills, projects, and contact links.</li>
+                <li>Implemented smooth navigation, mobile menu, and clean UI sections for a professional presentation.</li>
+                <li>Deployed online using GitHub Pages for easy sharing.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="item-title">Responsive Landing Page (UI Practice)</div>
+              <div class="item-sub">Front-End Developer</div>
+              <ul>
+                <li>Built a modern landing page focusing on layout, readability, and responsive design principles.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="item-title">Online Job Portal (PHP + MySQL) — UI/UX Improvements</div>
+              <div class="item-sub">Web Developer / UI Designer (Student)</div>
+              <ul>
+                <li>Improved UI layout, spacing, and overall user experience across job listing, search, and application flows.</li>
+                <li>Refined forms and pages (login/registration and job application) to make interactions clearer and more user-friendly.</li>
+                <li>Worked with PHP + MySQL integration and role-based workflows while customizing an educational template (non-commercial use) for learning.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Education</div>
+            <div class="item">
+              <div class="item-title">BS in Information Technology (BSIT) — 2nd Year</div>
+              <div class="item-sub">Asia Pacific of Advanced Studies, Balanga City, Bataan | 2026 – 2027</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="section">
+            <div class="section-title">Areas of Expertise</div>
+            <ul>
+              <li>Full-stack web fundamentals (front end + PHP back end)</li>
+              <li>SQL & database integration (MySQL, CRUD)</li>
+              <li>Debugging & root-cause problem solving</li>
+              <li>Git/GitHub workflow and task-based delivery</li>
+              <li>Responsive UI implementation (mobile-first)</li>
+              <li>Responsible AI-assisted development (research, debugging, iteration)</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="pill-list">
+              <div class="pill">PHP</div>
+              <div class="pill">MySQL / SQL</div>
+              <div class="pill">JavaScript</div>
+              <div class="pill">HTML</div>
+              <div class="pill">CSS</div>
+              <div class="pill">Bootstrap</div>
+              <div class="pill">CRUD</div>
+              <div class="pill">Authentication (Basics)</div>
+              <div class="pill">Responsive Design</div>
+              <div class="pill">Git</div>
+              <div class="pill">GitHub</div>
+              <div class="pill">GitHub Pages</div>
+              <div class="pill">VS Code</div>
+              <div class="pill">Chrome DevTools</div>
+              <div class="pill">AI-assisted workflow</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Soft Skills</div>
+            <ul>
+              <li>Problem-solving</li>
+              <li>Fast learner / self-learning</li>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Time management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
